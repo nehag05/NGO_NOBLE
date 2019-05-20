@@ -1,0 +1,90 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="textarea_width">240dp</dimen>
+    <dimen name="textarea_height">25dp</dimen>
+
+    <dimen name="control_height">60dp</dimen>
+    <dimen name="control_width">150dp</dimen>
+    <dimen name="spinner_height">40dp</dimen>
+    <dimen name="btn_padding">5dp</dimen>
+    <dimen name="tag_input_width">100dp</dimen>
+    <dimen name="cust_sign_width">400dp</dimen>
+    <dimen name="cust_sign_height">150dp</dimen>
+    <dimen name="button_width">100dp</dimen>
+    <dimen name="button_height">30dp</dimen>
+    <dimen name="grid_column_width">53dp</dimen>
+    <dimen name="margin_graph_top">50dp</dimen>
+
+
+    <dimen name="margin_top">6dp</dimen>
+
+    <dimen name="width_dimen">50dp</dimen>
+    <dimen name="height_dimen">15dp</dimen>
+
+    <dimen name="margin_top_login_btn">90dp</dimen>
+    <dimen name="login_first_ele_margin_top">150dp</dimen>
+    <dimen name="page_title_padding_top">15dp</dimen>
+    <dimen name="page_title_padding_bottom">15dp</dimen>
+    <dimen name="page_acktitle_padding_top">5dp</dimen>
+    <dimen name="page_acktitle_padding_bottom">5dp</dimen>
+    <dimen name="ack_tite_layout_height">30dp</dimen>
+    <dimen name="action_bar_height">55dp</dimen>
+    <dimen name="margin_top_large">20dp</dimen>
+    <dimen name="ack_page_width">300dp</dimen>
+    <dimen name="ack_page_height">300dp</dimen>
+    <dimen name="padding_left">3dp</dimen>
+    <dimen name="padding_top">3dp</dimen>
+    <dimen name="page_icon_padding_top">8dp</dimen>
+    <dimen name="page_icon_padding_bottom">16dp</dimen>
+    <dimen name="page_icon_padding_side">8dp</dimen>
+    <dimen name="main_content_task_cnt_width">30dp</dimen>
+    <dimen name="main_content_task_cnt_height">35dp</dimen>
+    <dimen name="main_content_task_padding_right">7dp</dimen>
+    <dimen name="main_content_task_padding_left">11dp</dimen>
+    <dimen name="main_content_task_margin_right">7dp</dimen>
+    <dimen name="main_content_task_margin_end">7dp</dimen>
+    <dimen name="main_task_title_height">40dp</dimen>
+    <dimen name="margin_left">10dp</dimen>
+    <dimen name="margin_left_all_pages">20dp</dimen>
+    <dimen name="margin_right_all_pages">20dp</dimen>
+    <dimen name="spacing_calc_columns">100dp</dimen>
+
+    <dimen name="input_fields_width">150dp</dimen>
+    <dimen name="switch_width">50dp</dimen>
+    <dimen name="input_fields_height">30dp</dimen>
+    <dimen name="row_item_spacing">50dp</dimen>
+    <dimen name="main_title_text_size">13sp</dimen>
+    <dimen name="main_page_top_margin">50dp</dimen>
+    <dimen name="button_spacing">10dp</dimen>
+    <dimen name="textSize">12sp</dimen>
+    <dimen name="labelTextSize">10sp</dimen>
+
+    <dimen name="textSizeRowInfo">13sp</dimen>
+    <dimen name="group_label_text_size">13sp</dimen>
+    <dimen name="margin_top_small">1dp</dimen>
+    <dimen name="group_title_width">140dp</dimen>
+    <dimen name="group_cnt_width">50dp</dimen>
+    <dimen name="group_img_width">50dp</dimen>
+    <dimen name="group_label_height">60dp</dimen>
+    <dimen name="row_detail_label_width">90dp</dimen>
+    <dimen name="form_label_width">170dp</dimen>
+    <dimen name="copyright_txt_size">22sp</dimen>
+    <dimen name="text_size_main">13sp</dimen>
+    <dimen name="padding_left_all_pages">5dp</dimen>
+    <dimen name="padding_right_all_pages">5dp</dimen>
+    <dimen name="list_margin_top_main_page">20dp</dimen>
+    <dimen name="ack_label_width">55dp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+
+
+    <!-- Newly added -->
+    <dimen name="login_act_login_label_size">15sp</dimen>
+    <dimen name="login_act_login_lbl_top_margin">50dp</dimen>
+
+
+</resources>

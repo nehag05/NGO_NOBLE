@@ -1,0 +1,111 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragment_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:visibility="visible"
+    android:layout_marginRight="20dp"
+    android:layout_marginLeft="20dp"
+    android:layout_columnSpan="2"
+    android:background="#ffffff"
+    android:scrollbars="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:ellipsize="marquee"
+        android:fadingEdge="horizontal"
+        android:lines="2"
+        android:textColor="#000000"
+        android:textSize="10sp"
+        android:fontFamily="sans-serif"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:padding="4dp"
+        android:scrollHorizontally="true"
+        android:singleLine="false"
+        android:id="@+id/newsScrolling"
+        android:textStyle="bold"
+        android:text="Speak respectfully for Soldiers: NGO Founder.\nRelief for 12 NGOs after compliance with govt directive." />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/newsScrolling"
+        android:layout_marginTop="10dp"
+        android:id="@+id/eventsId">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/events" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fadingEdge="horizontal"
+        android:layout_below="@+id/eventsId"
+        android:lines="1"
+        android:textColor="#000000"
+        android:textSize="10sp"
+        android:fontFamily="sans-serif"
+        android:padding="4dp"
+        android:scrollHorizontally="true"
+        android:singleLine="false"
+        android:id="@+id/usefulLinks"
+        android:autoLink="web"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+        android:text="https://aerobicscardio.foc.hol.es/category/aerobics-cardio/" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_below="@+id/usefulLinks"
+        android:id="@+id/socialIcons"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/facebook" />
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/twitter" />
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/whatsapp" />
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/phone" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/socialIcons"
+        android:text="Copyright (c) 1999 Marvel Team All Rights Reserved\nThis product is protected by copyright and distributed under\nlicenses restricting copying, distribution and decompilation."
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="10sp"
+        android:visibility="visible"
+
+        />
+
+
+</RelativeLayout>

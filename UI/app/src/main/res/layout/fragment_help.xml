@@ -1,0 +1,292 @@
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragment_help"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:visibility="visible"
+    android:layout_columnSpan="2"
+    android:background="#ffffff"
+    android:scrollbars="vertical">
+
+    <LinearLayout>
+
+
+        <TextView
+            android:id="@+id/victimNameLabel"
+
+            android:layout_width="50dp"
+            android:layout_height="36dp"
+            android:layout_column="0"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="20dp"
+
+            android:layout_row="0"
+            android:fontFamily="sans-serif"
+            android:text="Name"
+            android:textColor="#000000"
+            android:textSize="10sp"
+            android:textStyle="normal"
+            android:visibility="visible"></TextView>
+
+        <EditText
+            android:id="@+id/victimName"
+            android:layout_width="@dimen/textarea_width"
+            android:layout_height="@dimen/textarea_height"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif"
+            android:textColor="#000000"
+            android:textSize="10sp"
+            android:visibility="visible"
+            android:background="@drawable/rectangle" />
+
+    </LinearLayout>
+
+    <LinearLayout>
+
+
+        <TextView
+            android:id="@+id/victimAddressLabel"
+
+            android:layout_width="50dp"
+            android:layout_height="@dimen/textarea_height"
+            android:layout_column="0"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_row="0"
+            android:textStyle="normal"
+            android:visibility="visible"
+            android:textSize="10sp"
+            android:textColor="#000000"
+            android:fontFamily="sans-serif"
+
+            android:text="Address"></TextView>
+
+        <EditText
+            android:layout_width="@dimen/textarea_width"
+            android:layout_height="@dimen/textarea_height"
+            android:id="@+id/victimAddress"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="20dp"
+            android:inputType="textPostalAddress"
+            android:textSize="10sp"
+            android:visibility="visible"
+            android:background="@drawable/rectangle"
+
+            android:textColor="#000000"
+            android:fontFamily="sans-serif"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout>
+
+        <TextView
+            android:id="@+id/getLocaBtnLbl"
+            android:layout_width="50dp"
+            android:layout_height="@dimen/textarea_height"
+            android:layout_column="0"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_row="0"
+            android:textStyle="normal"
+            android:visibility="visible"
+            android:textSize="10sp"
+            android:textColor="#000000"
+            android:fontFamily="sans-serif"
+
+            android:text="Get GPS"
+            android:onClick="setGPSLocation"></TextView>
+
+        <Button
+            android:id="@+id/getLocBtn"
+            android:layout_width="@dimen/textarea_width"
+            android:layout_height="@dimen/textarea_height"
+            android:layout_column="1"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="20dp"
+            android:textSize="10sp"
+            android:textColor="#000000"
+            android:fontFamily="sans-serif"
+
+            android:layout_row="8"
+            android:visibility="visible"
+
+            android:background="@drawable/button"
+            android:text="Get Location" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout>
+
+
+        <TextView
+            android:id="@+id/victimEmailLabel"
+            android:layout_width="50dp"
+            android:layout_height="@dimen/textarea_height"
+            android:layout_column="0"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_row="0"
+            android:textStyle="normal"
+            android:visibility="visible"
+            android:textSize="10sp"
+            android:textColor="#000000"
+            android:fontFamily="sans-serif"
+
+            android:text="Email"></TextView>
+
+        <EditText
+            android:layout_width="@dimen/textarea_width"
+            android:layout_height="@dimen/textarea_height"
+            android:id="@+id/victimEmail"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/rectangle"
+
+            android:layout_marginTop="20dp"
+            android:textSize="10sp"
+            android:textColor="#000000"
+            android:fontFamily="sans-serif"
+            android:visibility="visible"
+
+
+            android:inputType="textEmailAddress" />
+    </LinearLayout>
+
+    <LinearLayout>
+
+
+        <TextView
+            android:id="@+id/victimPhoneLabel"
+            android:layout_width="50dp"
+            android:layout_height="@dimen/textarea_height"
+            android:layout_column="0"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_row="0"
+            android:textStyle="normal"
+            android:visibility="visible"
+            android:textSize="10sp"
+            android:textColor="#000000"
+            android:fontFamily="sans-serif"
+
+            android:text="Phone"></TextView>
+
+        <EditText
+            android:layout_width="@dimen/textarea_width"
+            android:layout_height="@dimen/textarea_height"
+            android:id="@+id/victimPhone"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="20dp"
+            android:inputType="textPhonetic"
+            android:textSize="10sp"
+            android:textColor="#000000"
+            android:fontFamily="sans-serif"
+            android:background="@drawable/rectangle"
+
+            android:visibility="visible"
+
+
+            />
+    </LinearLayout>
+
+    <LinearLayout>
+
+        <TextView
+            android:id="@+id/victimReasonsLabel"
+            android:layout_width="50dp"
+            android:layout_height="@dimen/textarea_height"
+            android:layout_column="0"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_row="0"
+            android:textStyle="normal"
+            android:visibility="visible"
+            android:textSize="10sp"
+            android:textColor="#000000"
+            android:fontFamily="sans-serif"
+
+            android:text="Problem"></TextView>
+
+        <Spinner
+            android:layout_width="@dimen/textarea_width"
+            android:layout_height="@dimen/textarea_height"
+            android:id="@+id/victimProblemCause"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="20dp"
+            android:entries="@array/problems_array"
+            android:background="@drawable/rectangle" />
+    </LinearLayout>
+
+    <LinearLayout>
+
+        <TextView
+            android:id="@+id/victimCommentsLabel"
+            android:layout_width="50dp"
+            android:layout_height="@dimen/textarea_height"
+            android:layout_column="0"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="20dp"
+            android:textSize="10sp"
+            android:textColor="#000000"
+            android:fontFamily="sans-serif"
+
+            android:layout_row="0"
+            android:textStyle="normal"
+            android:visibility="visible"
+            android:text="Comments"></TextView>
+
+        <EditText
+            android:layout_width="@dimen/textarea_width"
+            android:layout_height="@dimen/textarea_height"
+            android:id="@+id/victimComments"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="20dp"
+            android:visibility="visible"
+            android:textSize="10sp"
+            android:textColor="#000000"
+            android:background="@drawable/rectangle"
+
+            android:fontFamily="sans-serif"
+
+
+            />
+    </LinearLayout>
+
+    <LinearLayout android:layout_marginLeft="90dp">
+
+        <Button
+            android:id="@+id/helpSubmit"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="@dimen/button_height"
+            android:layout_column="1"
+            android:layout_row="8"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="30dp"
+            android:textSize="10sp"
+            android:textColor="#000000"
+            android:fontFamily="sans-serif"
+            android:background="@drawable/button"
+            android:onClick="submitData"
+            android:text="Submit" />
+    </LinearLayout>
+
+</GridLayout>
